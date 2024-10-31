@@ -1,19 +1,24 @@
-//
-//  ViewController.swift
-//  TennisScoring
-//
-//  Created by AVA SCHMIDT on 10/23/24.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController{
+    
+    @IBOutlet weak var imageViewOutlet: UIImageView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
+        
     }
-
-
+    
+    @IBAction func tappedCoverImageAction(_ sender: UITapGestureRecognizer) {
+        performSegue(withIdentifier: "openApp", sender: self)
+    }
+    
+   
+    
+    
+    
 }
-
