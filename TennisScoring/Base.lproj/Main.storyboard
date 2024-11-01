@@ -174,21 +174,21 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select A Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcG-gP-XhS">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="40"/>
+                                        <rect key="frame" x="0.0" y="50" width="393" height="40.333333333333343"/>
                                         <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PZi-jU-M1H">
-                                        <rect key="frame" x="0.0" y="90" width="393" height="71.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="90.333333333333343" width="393" height="71.333333333333343"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name of Game" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e87-tV-gLT">
-                                                <rect key="frame" x="0.0" y="0.0" width="325.66666666666669" height="71.666666666666671"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="325.66666666666669" height="71.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5t3-bm-X1B">
-                                                <rect key="frame" x="325.66666666666669" y="0.0" width="67.333333333333314" height="71.666666666666671"/>
+                                                <rect key="frame" x="325.66666666666669" y="0.0" width="67.333333333333314" height="71.333333333333329"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Enter">
                                                     <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="18"/>
@@ -202,22 +202,30 @@
                                             <constraint firstItem="e87-tV-gLT" firstAttribute="width" secondItem="PZi-jU-M1H" secondAttribute="width" multiplier="0.828668" id="RjD-Hb-1KG"/>
                                         </constraints>
                                     </stackView>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="oem-Ur-DRr">
+                                        <rect key="frame" x="0.0" y="161.66666666666671" width="393" height="503.33333333333326"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" id="LK4-rf-gsB">
+                                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LK4-rf-gsB" id="jWF-s9-lQb">
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                        </prototypes>
+                                    </tableView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GsT-Dl-xjR">
-                                        <rect key="frame" x="0.0" y="161.66666666666669" width="393" height="50"/>
+                                        <rect key="frame" x="0.0" y="665" width="393" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UcQ-Eh-ZRw">
-                                        <rect key="frame" x="0.0" y="211.66666666666671" width="393" height="503.33333333333326"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <color key="textColor" systemColor="labelColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="GsT-Dl-xjR" firstAttribute="height" secondItem="za4-Ti-T0i" secondAttribute="height" multiplier="0.0699301" id="Gls-q3-x5f"/>
+                                    <constraint firstItem="oem-Ur-DRr" firstAttribute="height" secondItem="za4-Ti-T0i" secondAttribute="height" multiplier="0.703963" id="Lsf-vN-hQR"/>
                                     <constraint firstItem="gs0-HM-NFn" firstAttribute="height" secondItem="za4-Ti-T0i" secondAttribute="height" multiplier="0.0699301" id="PaL-M5-jSS"/>
                                     <constraint firstItem="PZi-jU-M1H" firstAttribute="height" secondItem="za4-Ti-T0i" secondAttribute="height" multiplier="0.1" id="dq5-kv-lGQ"/>
                                 </constraints>
@@ -234,6 +242,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="ttn-9P-CP1"/>
                     <connections>
+                        <outlet property="tableViewOutlet" destination="oem-Ur-DRr" id="t7c-jb-GxC"/>
+                        <outlet property="textViewOutlet" destination="e87-tV-gLT" id="pw6-Tw-GR5"/>
                         <segue destination="3dG-lj-lyR" kind="show" identifier="selectMatchSegue" id="UkE-FC-EZc"/>
                     </connections>
                 </viewController>
@@ -406,6 +416,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="okD-UY-iTh"/>
                     <connections>
+                        <outlet property="oppNameOutlet" destination="OKV-Wg-tEi" id="NI9-Iv-idz"/>
                         <segue destination="6Te-D5-flm" kind="show" identifier="singlesSegue" id="1PA-0G-8iP"/>
                     </connections>
                 </viewController>
