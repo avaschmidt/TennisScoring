@@ -5,4 +5,8 @@ class AppData{
     static  var text = ""
     static var score = "0-0"
     static var opps = ""
+    static var userWs = 0
+    static var oppWs = 0
+    static var userSets = 0
+    static var oppSets = 0
 }

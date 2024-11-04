@@ -11,7 +11,7 @@ class SinglesViewController: UIViewController {
     }
     
     @IBAction func enterAction(_ sender: UIButton) {
-        
+        AppData.opps = "\(oppNameOutlet.text!)"
         performSegue(withIdentifier: "singlesSegue", sender: self)
     }
     

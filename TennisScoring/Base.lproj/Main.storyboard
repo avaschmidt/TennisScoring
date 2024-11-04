@@ -206,12 +206,28 @@
                                         <rect key="frame" x="0.0" y="161.66666666666671" width="393" height="503.33333333333326"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" id="LK4-rf-gsB">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" textLabel="grV-tQ-oq1" detailTextLabel="duI-wa-Vqx" style="IBUITableViewCellStyleValue1" id="LK4-rf-gsB">
                                                 <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LK4-rf-gsB" id="jWF-s9-lQb">
                                                     <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                                     <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="grV-tQ-oq1">
+                                                            <rect key="frame" x="20" y="15" width="25" height="14.333333333333334"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="duI-wa-Vqx">
+                                                            <rect key="frame" x="340.33333333333331" y="15" width="32.666666666666664" height="14.333333333333334"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
                                                 </tableViewCellContentView>
                                             </tableViewCell>
                                         </prototypes>
@@ -462,6 +478,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="W">
                                                     <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="19"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="winAction:" destination="6Te-D5-flm" eventType="touchUpInside" id="ENo-Yl-W03"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utM-5l-b1q">
                                                 <rect key="frame" x="196.66666666666663" y="0.0" width="196.33333333333337" height="71.666666666666671"/>
@@ -469,6 +488,9 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="L">
                                                     <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="19"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="loseAction:" destination="6Te-D5-flm" eventType="touchUpInside" id="Pk3-8g-qM5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -509,6 +531,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="CV1-Fr-FgF"/>
                     <connections>
+                        <outlet property="scoreDisplayOutlet" destination="b3E-O0-uj8" id="WaN-cf-T2n"/>
                         <segue destination="Ic7-oS-n0w" kind="show" identifier="setSegue" id="PRY-fG-rch"/>
                     </connections>
                 </viewController>
@@ -578,6 +601,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="TXF-mC-ZbB"/>
                     <connections>
+                        <outlet property="setsDisplayOutlet" destination="jdq-Mi-cro" id="44D-ZZ-qmz"/>
                         <segue destination="wVc-Kb-K2s" kind="show" identifier="winnerSegue" id="PUQ-6T-L0j"/>
                     </connections>
                 </viewController>
@@ -781,6 +805,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="tBl-2E-BoW"/>
                     <connections>
+                        <outlet property="opp1Outlet" destination="UMj-Dm-dtL" id="Wj8-Bm-oYL"/>
+                        <outlet property="opp2Outlet" destination="FOz-Wr-fxd" id="qOL-z8-ya5"/>
                         <segue destination="6Te-D5-flm" kind="show" identifier="doublesSegue" id="5WR-6r-4XM"/>
                     </connections>
                 </viewController>
@@ -808,7 +834,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1PA-0G-8iP"/>
+        <segue reference="5WR-6r-4XM"/>
         <segue reference="hPa-v8-ZJg"/>
         <segue reference="sRs-eP-i0t"/>
     </inferredMetricsTieBreakers>
