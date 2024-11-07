@@ -11,6 +11,7 @@
 		2208540D2CD25D9800DF694D /* DoublesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208540C2CD25D9800DF694D /* DoublesViewController.swift */; };
 		2208540F2CD25E2800DF694D /* TypeSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208540E2CD25E2800DF694D /* TypeSelectViewController.swift */; };
 		220854112CD265EA00DF694D /* WinLoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220854102CD265EA00DF694D /* WinLoseViewController.swift */; };
+		22100FA12CDCF98A00EE6BD2 /* theOpps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22100FA02CDCF98A00EE6BD2 /* theOpps.swift */; };
 		2250AC0C2CD42674008BF41A /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2250AC0B2CD42674008BF41A /* AppData.swift */; };
 		22ADE6752CD3B50900E8A287 /* SetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADE6742CD3B50900E8A287 /* SetsViewController.swift */; };
 		22ADE6772CD3B65A00E8A287 /* WinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ADE6762CD3B65A00E8A287 /* WinnerViewController.swift */; };
@@ -30,6 +31,7 @@
 		2208540C2CD25D9800DF694D /* DoublesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublesViewController.swift; sourceTree = "<group>"; };
 		2208540E2CD25E2800DF694D /* TypeSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeSelectViewController.swift; sourceTree = "<group>"; };
 		220854102CD265EA00DF694D /* WinLoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinLoseViewController.swift; sourceTree = "<group>"; };
+		22100FA02CDCF98A00EE6BD2 /* theOpps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theOpps.swift; sourceTree = "<group>"; };
 		2250AC0B2CD42674008BF41A /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		22ADE6742CD3B50900E8A287 /* SetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetsViewController.swift; sourceTree = "<group>"; };
 		22ADE6762CD3B65A00E8A287 /* WinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				22E92FF32CD1140C00830137 /* InfoViewController.swift */,
 				22E92FF12CD1122200830137 /* SelectGameViewController.swift */,
 				2250AC0B2CD42674008BF41A /* AppData.swift */,
+				22100FA02CDCF98A00EE6BD2 /* theOpps.swift */,
 				22C97DC82CC924510096A6AD /* Assets.xcassets */,
 				22C97DCA2CC924510096A6AD /* LaunchScreen.storyboard */,
 				22C97DCD2CC924510096A6AD /* Info.plist */,
@@ -173,6 +176,7 @@
 				22C97DC72CC924500096A6AD /* TennisScoring.xcdatamodeld in Sources */,
 				220854112CD265EA00DF694D /* WinLoseViewController.swift in Sources */,
 				22C97DC12CC924500096A6AD /* ViewController.swift in Sources */,
+				22100FA12CDCF98A00EE6BD2 /* theOpps.swift in Sources */,
 				2208540D2CD25D9800DF694D /* DoublesViewController.swift in Sources */,
 				2208540B2CD25D7C00DF694D /* SinglesViewController.swift in Sources */,
 				22C97DBD2CC924500096A6AD /* AppDelegate.swift in Sources */,

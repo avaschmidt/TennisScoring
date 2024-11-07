@@ -38,7 +38,7 @@ class SelectGameViewController: UIViewController, UITableViewDelegate, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell")
         cell?.textLabel?.text = "Game: \(AppData.text)"
-        cell?.detailTextLabel?.text = "Score: \(AppData.score)"
+        cell?.detailTextLabel?.text = "Score: \(AppData.userSets)-\(AppData.oppSets)"
         return cell!
     }
     
