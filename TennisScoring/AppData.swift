@@ -9,4 +9,8 @@ class AppData{
     static var oppWs = 0
     static var userSets = 0
     static var oppSets = 0
+    static var gameName = "Game \(numGamesSaved + 1)"
+    
+    
+    
 }

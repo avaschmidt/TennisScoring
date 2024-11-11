@@ -16,6 +16,10 @@ class SelectGameViewController: UIViewController, UITableViewDelegate, UITableVi
         tableViewOutlet.reloadData()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        tableViewOutlet.reloadData()
+    }
+    
 
     @IBAction func enterAction(_ sender: UIButton) {
         performSegue(withIdentifier: "selectMatchSegue", sender: self)

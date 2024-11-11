@@ -3,6 +3,8 @@ import UIKit
 class WinnerViewController: UIViewController {
 
     @IBOutlet weak var winnerNameOutlet: UILabel!
+    var defaults = UserDefaults.standard
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,7 +22,14 @@ class WinnerViewController: UIViewController {
     }
     
     
-
+    override func viewDidAppear(_ animated: Bool) {
+        var gameName = defaults.integer(forKey: "gameName")
+        var n = defaults.string(forKey: "name")
+    }
+    
+    
+    
+    
     
 
 }
