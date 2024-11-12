@@ -5,7 +5,7 @@ class SelectGameViewController: UIViewController, UITableViewDelegate, UITableVi
     
     @IBOutlet weak var tableViewOutlet: UITableView!
     
-
+    //var defaults = UserDefaults.standard
    
     var text = ""
     
@@ -14,6 +14,8 @@ class SelectGameViewController: UIViewController, UITableViewDelegate, UITableVi
         tableViewOutlet.delegate = self
         tableViewOutlet.dataSource = self
         tableViewOutlet.reloadData()
+       // var score = defaults.string(forKey: "score")
+       // var name = defaults.string(forKey: "name")
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -22,7 +24,7 @@ class SelectGameViewController: UIViewController, UITableViewDelegate, UITableVi
     
 
     @IBAction func enterAction(_ sender: UIButton) {
-        performSegue(withIdentifier: "selectMatchSegue", sender: self)
+        
         if textViewOutlet.text != ""{
             text = textViewOutlet.text!
             AppData.text = text
@@ -33,6 +35,12 @@ class SelectGameViewController: UIViewController, UITableViewDelegate, UITableVi
         }
         AppData.numGamesSaved = AppData.numGamesSaved + 1
         tableViewOutlet.reloadData()
+        var nameSave = AppData.text
+        var scoreSave = AppData.score
+       // defaults.set(scoreSave, forKey: "score")
+        //defaults.set(nameSave, forKey: "name")
+        
+        performSegue(withIdentifier: "selectMatchSegue", sender: self)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

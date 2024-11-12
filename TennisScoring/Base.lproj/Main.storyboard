@@ -473,7 +473,7 @@
                                         <rect key="frame" x="0.0" y="168.33333333333334" width="393" height="84.333333333333343"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yQ-37-mH3">
-                                                <rect key="frame" x="0.0" y="0.0" width="196.66666666666666" height="84.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="177" height="84.333333333333329"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="W">
                                                     <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="19"/>
@@ -482,8 +482,14 @@
                                                     <action selector="winAction:" destination="6Te-D5-flm" eventType="touchUpInside" id="ENo-Yl-W03"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aec-hF-7s8">
+                                                <rect key="frame" x="177" y="0.0" width="39" height="84.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="utM-5l-b1q">
-                                                <rect key="frame" x="196.66666666666663" y="0.0" width="196.33333333333337" height="84.333333333333329"/>
+                                                <rect key="frame" x="216" y="0.0" width="177" height="84.333333333333329"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="L">
                                                     <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="19"/>
@@ -494,7 +500,8 @@
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="3yQ-37-mH3" firstAttribute="width" secondItem="hKm-1Y-LEP" secondAttribute="width" multiplier="0.500424" id="Sc6-Kg-x9g"/>
+                                            <constraint firstItem="3yQ-37-mH3" firstAttribute="width" secondItem="hKm-1Y-LEP" secondAttribute="width" multiplier="0.45" id="Sc6-Kg-x9g"/>
+                                            <constraint firstItem="utM-5l-b1q" firstAttribute="width" secondItem="hKm-1Y-LEP" secondAttribute="width" multiplier="0.45" id="aIA-gd-gxz"/>
                                         </constraints>
                                     </stackView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="b3E-O0-uj8">
@@ -663,7 +670,7 @@
                                         <rect key="frame" x="0.0" y="360.66666666666669" width="393" height="84.333333333333314"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQC-tv-gjt">
-                                                <rect key="frame" x="0.0" y="0.0" width="196.66666666666666" height="84.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="177" height="84.333333333333329"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Yes">
                                                     <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="29"/>
@@ -672,8 +679,14 @@
                                                     <segue destination="CkU-Be-fmQ" kind="show" id="W6z-tq-pvt"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkN-0u-66p">
+                                                <rect key="frame" x="177" y="0.0" width="39" height="84.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USc-JI-2R9">
-                                                <rect key="frame" x="196.66666666666663" y="0.0" width="196.33333333333337" height="84.333333333333329"/>
+                                                <rect key="frame" x="216" y="0.0" width="177" height="84.333333333333329"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="No">
                                                     <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="29"/>
@@ -683,6 +696,10 @@
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="UQC-tv-gjt" firstAttribute="width" secondItem="yTZ-i8-ems" secondAttribute="width" multiplier="0.45" id="ZBS-OC-M0N"/>
+                                            <constraint firstItem="USc-JI-2R9" firstAttribute="width" secondItem="yTZ-i8-ems" secondAttribute="width" multiplier="0.45" id="rMK-9S-Sla"/>
+                                        </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRO-bX-ScY">
                                         <rect key="frame" x="0.0" y="445" width="393" height="397"/>
@@ -933,7 +950,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="5WR-6r-4XM"/>
-        <segue reference="W6z-tq-pvt"/>
+        <segue reference="0kw-fc-muu"/>
         <segue reference="DkO-tF-Ee4"/>
     </inferredMetricsTieBreakers>
     <resources>
