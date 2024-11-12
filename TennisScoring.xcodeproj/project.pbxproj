@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22056F642CE3062D00878426 /* OppTeamDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22056F632CE3062D00878426 /* OppTeamDisplayViewController.swift */; };
 		2208540B2CD25D7C00DF694D /* SinglesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208540A2CD25D7C00DF694D /* SinglesViewController.swift */; };
 		2208540D2CD25D9800DF694D /* DoublesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208540C2CD25D9800DF694D /* DoublesViewController.swift */; };
 		2208540F2CD25E2800DF694D /* TypeSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208540E2CD25E2800DF694D /* TypeSelectViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22056F632CE3062D00878426 /* OppTeamDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OppTeamDisplayViewController.swift; sourceTree = "<group>"; };
 		2208540A2CD25D7C00DF694D /* SinglesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglesViewController.swift; sourceTree = "<group>"; };
 		2208540C2CD25D9800DF694D /* DoublesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublesViewController.swift; sourceTree = "<group>"; };
 		2208540E2CD25E2800DF694D /* TypeSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeSelectViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				22C97DBE2CC924500096A6AD /* SceneDelegate.swift */,
 				22C97DC02CC924500096A6AD /* ViewController.swift */,
 				22C97DC22CC924500096A6AD /* Main.storyboard */,
+				22056F632CE3062D00878426 /* OppTeamDisplayViewController.swift */,
 				22ADE6762CD3B65A00E8A287 /* WinnerViewController.swift */,
 				22ADE6742CD3B50900E8A287 /* SetsViewController.swift */,
 				220854102CD265EA00DF694D /* WinLoseViewController.swift */,
@@ -178,6 +181,7 @@
 				22C97DC12CC924500096A6AD /* ViewController.swift in Sources */,
 				22100FA12CDCF98A00EE6BD2 /* theOpps.swift in Sources */,
 				2208540D2CD25D9800DF694D /* DoublesViewController.swift in Sources */,
+				22056F642CE3062D00878426 /* OppTeamDisplayViewController.swift in Sources */,
 				2208540B2CD25D7C00DF694D /* SinglesViewController.swift in Sources */,
 				22C97DBD2CC924500096A6AD /* AppDelegate.swift in Sources */,
 				22ADE6752CD3B50900E8A287 /* SetsViewController.swift in Sources */,

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vOu-yk-xsP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vOu-yk-xsP">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -738,51 +738,83 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opponent Details:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtb-ju-2nJ">
-                                        <rect key="frame" x="0.0" y="41.999999999999993" width="393" height="67.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="41.999999999999993" width="393" height="84.333333333333314"/>
                                         <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eq5-eS-oWF">
-                                        <rect key="frame" x="0.0" y="109.33333333333333" width="393" height="42.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="126.33333333333333" width="393" height="16.666666666666671"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter The First Person's Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UMj-Dm-dtL">
-                                        <rect key="frame" x="0.0" y="151.66666666666666" width="393" height="67.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="143" width="393" height="67.666666666666686"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHQ-U1-1cV">
-                                        <rect key="frame" x="0.0" y="219" width="393" height="42"/>
+                                        <rect key="frame" x="0.0" y="210.66666666666666" width="393" height="33.666666666666657"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter The Second Person's Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FOz-Wr-fxd">
-                                        <rect key="frame" x="0.0" y="261" width="393" height="67.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="244.33333333333334" width="393" height="67.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zam-Mk-Lj1">
-                                        <rect key="frame" x="0.0" y="328.33333333333331" width="393" height="42"/>
+                                        <rect key="frame" x="0.0" y="311.66666666666669" width="393" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xqe-uz-Cve">
-                                        <rect key="frame" x="0.0" y="370.33333333333331" width="393" height="67.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="353.66666666666669" width="393" height="67.333333333333314"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Enter">
+                                        <buttonConfiguration key="configuration" style="filled" title="Enter Names">
                                             <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="22"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="enterAction:" destination="uPr-E5-4Sz" eventType="touchUpInside" id="kIR-wa-TLO"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZh-uD-H6r">
+                                        <rect key="frame" x="0.0" y="421" width="393" height="33.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xsR-IR-sl1">
+                                        <rect key="frame" x="0.0" y="454.66666666666669" width="393" height="67.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="View Opposing Team's Details">
+                                            <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="22"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="viewDetailsAction:" destination="uPr-E5-4Sz" eventType="touchUpInside" id="ohh-wl-ofi"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5h-zA-TPA">
+                                        <rect key="frame" x="0.0" y="522" width="393" height="33.666666666666629"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tI3-O2-MbX">
+                                        <rect key="frame" x="0.0" y="555.66666666666663" width="393" height="67.333333333333371"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Next">
+                                            <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="22"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="nextAction:" destination="uPr-E5-4Sz" eventType="touchUpInside" id="TpH-kT-BZd"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yiM-q7-RrR">
-                                        <rect key="frame" x="0.0" y="438" width="393" height="404"/>
+                                        <rect key="frame" x="0.0" y="623" width="393" height="219"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -790,13 +822,17 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="P0R-x3-5VY" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.05" id="6ag-zP-Z6a"/>
+                                    <constraint firstItem="b5h-zA-TPA" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.04" id="GNz-cP-cYF"/>
                                     <constraint firstItem="FOz-Wr-fxd" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.08" id="IE0-6t-mGH"/>
                                     <constraint firstItem="UMj-Dm-dtL" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.08" id="Xff-jK-6qz"/>
+                                    <constraint firstItem="xsR-IR-sl1" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.08" id="aBc-RJ-4O0"/>
                                     <constraint firstItem="zam-Mk-Lj1" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.05" id="b1T-a4-Mse"/>
-                                    <constraint firstItem="pHQ-U1-1cV" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.05" id="eEa-nI-Yh0"/>
-                                    <constraint firstItem="Eq5-eS-oWF" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.05" id="sPv-ll-TML"/>
+                                    <constraint firstItem="WZh-uD-H6r" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.04" id="bWP-8S-nPx"/>
+                                    <constraint firstItem="pHQ-U1-1cV" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.04" id="eEa-nI-Yh0"/>
+                                    <constraint firstItem="tI3-O2-MbX" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.08" id="jRs-i0-MSa"/>
+                                    <constraint firstItem="Eq5-eS-oWF" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.02" id="sPv-ll-TML"/>
                                     <constraint firstItem="xqe-uz-Cve" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.08" id="wJ6-hc-fTq"/>
-                                    <constraint firstItem="rtb-ju-2nJ" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.08" id="zsp-Ig-gvi"/>
+                                    <constraint firstItem="rtb-ju-2nJ" firstAttribute="height" secondItem="nej-ny-yZa" secondAttribute="height" multiplier="0.1" id="zsp-Ig-gvi"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -814,11 +850,67 @@
                         <outlet property="opp1Outlet" destination="UMj-Dm-dtL" id="Wj8-Bm-oYL"/>
                         <outlet property="opp2Outlet" destination="FOz-Wr-fxd" id="qOL-z8-ya5"/>
                         <segue destination="6Te-D5-flm" kind="show" identifier="doublesSegue" id="5WR-6r-4XM"/>
+                        <segue destination="zyv-0h-9cg" kind="show" identifier="teamSegue" id="MmH-ul-QLo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ehQ-ZQ-0yJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1726" y="2232"/>
+        </scene>
+        <!--Opp Team Display View Controller-->
+        <scene sceneID="MNa-yc-CVh">
+            <objects>
+                <viewController id="zyv-0h-9cg" customClass="OppTeamDisplayViewController" customModule="TennisScoring" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hr0-w3-bSb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="lm6-k0-npN">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opposing Team Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ha6-9M-Xkd">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="168.33333333333334"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="34"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mej-Hj-B83">
+                                        <rect key="frame" x="0.0" y="168.33333333333331" width="393" height="653.33333333333348"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbH-J9-dkj">
+                                        <rect key="frame" x="0.0" y="821.66666666666663" width="393" height="20.333333333333371"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="mej-Hj-B83" secondAttribute="bottom" constant="20.333333333333258" id="4Vi-P6-PS5"/>
+                                    <constraint firstItem="ha6-9M-Xkd" firstAttribute="height" secondItem="lm6-k0-npN" secondAttribute="height" multiplier="0.2" id="u1O-lG-oWs"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uSK-hn-Gef"/>
+                        <color key="backgroundColor" red="0.69803923369999998" green="0.99215686319999996" blue="0.6549019814" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="lm6-k0-npN" firstAttribute="leading" secondItem="uSK-hn-Gef" secondAttribute="leading" id="NqZ-YW-yTl"/>
+                            <constraint firstItem="uSK-hn-Gef" firstAttribute="trailing" secondItem="lm6-k0-npN" secondAttribute="trailing" id="ay2-1k-UmO"/>
+                            <constraint firstItem="lm6-k0-npN" firstAttribute="top" secondItem="uSK-hn-Gef" secondAttribute="top" id="pxX-HN-cDS"/>
+                            <constraint firstItem="uSK-hn-Gef" firstAttribute="bottom" secondItem="lm6-k0-npN" secondAttribute="bottom" id="uzk-FQ-CVI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="v0c-SG-MlH"/>
+                    <connections>
+                        <outlet property="displayOutlet" destination="mej-Hj-B83" id="xGj-Yc-erT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WkT-I3-P3c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2524" y="2232"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mL4-WS-abX">
@@ -840,7 +932,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Nlv-Ce-a1h"/>
+        <segue reference="5WR-6r-4XM"/>
         <segue reference="W6z-tq-pvt"/>
         <segue reference="DkO-tF-Ee4"/>
     </inferredMetricsTieBreakers>
